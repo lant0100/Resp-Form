@@ -1,0 +1,72 @@
+form {
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+header {
+    font-family: 'Noto Serif', serif;
+}
+
+body {
+    background-color: hsl(0, 50%, 50%);
+}
+
+form {
+    background-color: hsl(0, 75%, 75%);
+}
+
+@media screen and (max-width: 600px) {
+    
+label {
+    display: none;
+}
+    
+div {
+    padding-bottom: 1rem;
+}
+    
+input {
+    width: 100%;
+}
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    
+div {
+    float: left;
+    width: 50%;
+    padding-bottom: 1rem;
+}
+    
+input {
+    float: left;
+    width: 75%;
+}
+    
+label {
+    display: block;
+}
+    
+}
+
+@media screen and (min-width: 1024px) {
+    
+div {
+    float: left;
+    display: inline;
+    width: 50%;
+    padding-bottom: 1rem;
+}
+    
+input {
+    float: right;
+    width: 75%;
+    display: inline;
+}
+    
+label {
+    display: inline;
+    float: left;    
+    }
+    
+}
